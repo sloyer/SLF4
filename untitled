@@ -1,0 +1,23 @@
+<div id="sidebar-2" class="sidebar">
+
+
+	<?php if ( is_active_sidebar( 'sidebar2' ) ) : ?>
+	
+
+		<?php dynamic_sidebar( 'sidebar2' ); ?>
+		
+
+	<?php else : ?>
+
+		
+		<div class="help">
+		
+			<p>Please activate some Widgets.</p>
+		
+		</div>
+		
+
+	<?php endif; ?>
+	
+
+</div>
