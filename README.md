@@ -1,14 +1,16 @@
-A few notes
-=========
+== A few notes == 
 
-The only thing Wordpress has going for it, is that it's really easy to build small scale sites in it and extremely easy to ingergrate with Foundation. 
+An blank theme, with Foundation4 and MeanMenu already set up and ready to rock.
 
-To set up....
+== Foundation 4 ==
 
-1. Foundation files are already tied into the theme - You can always downlaod the latest version and plug everyhting in. Build your pages the foundation way like you would a normal web-page. 
+1. This theme is utulizing Zurb's Foundation 4. Its already set up and ready to rock. Simply just start laying out your grids in your pages.
+2. If you ever need to upgrade foundation, just replace the current directory located at 'javascripts/foundation'
+3. Import Settings can be found under 'sass/app.scss'
 
-2. Ready to rock with Sass, you may need to update the gem.
-
+== Mean Menu ==
+1. I don't like Foundations Top Bar, I prefer Mean Menu.
+2. MeanMenu already comes working on install of this theme.
 3. Mean Menu is ready to rock, way better than top bar. Its all set up already, just build your nav out normally  -
 <nav>
 	<ul>
@@ -18,5 +20,17 @@ To set up....
 		<li></li>
 	</ul>
 </nav>
+4. MeanMenu settings can be set in the script inside 'javascripts/scripts.js'
+5. The plugin can be found at 'javascripts/mean-menu.js'
 
-And it will work. 
+== Sass == 
+
+1. Sass is also ready to rock in this theme, though more than likely you will need to update the ruby config to use.
+2. This theme is built with the idea of "SMACSS". Everything Sass/CSS is layed out with those princicples in mind. 
+3. To run Scss, simply just install compass and run 'compass watch'
+
+== Javascripts == 
+
+1. Put any extra javascript plugins under the javascripts folder.
+2. If you ever need to run a script, place it in 'javascripts/scripts.js'
+
