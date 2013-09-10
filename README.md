@@ -13,6 +13,7 @@ An blank theme, with Foundation4 and MeanMenu already set up and ready to rock.
 3. Import Settings can be found under 'sass/app.scss'
 
 == Mean Menu ==
+
 1. I don't like Foundations Top Bar, I prefer Mean Menu.
 2. MeanMenu already comes working on install of this theme.
 3. Mean Menu is ready to rock, way better than top bar. Its all set up already, just build your nav out normally  - documentation can be found at - http://www.meanthemes.com/plugins/meanmenu/
