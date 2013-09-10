@@ -1,3 +1,7 @@
+==============
+SLF4 - Theme
+==============
+
 == A few notes == 
 
 An blank theme, with Foundation4 and MeanMenu already set up and ready to rock.
@@ -33,4 +37,6 @@ An blank theme, with Foundation4 and MeanMenu already set up and ready to rock.
 
 1. Put any extra javascript plugins under the javascripts folder.
 2. If you ever need to run a script, place it in 'javascripts/scripts.js'
+
+
 
